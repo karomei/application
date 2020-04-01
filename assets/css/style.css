@@ -1,6 +1,6 @@
 :root {
-    background-color: #333;
     font-size: 62.5%;
+    background-color: #333;
 }
 
 * {
@@ -33,3 +33,61 @@ li {
     font-size: 2rem;
 }
 
+/*------------------------------------------UTILITIES*/
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: -10rem;
+}
+.container > * {
+    width: 100%;
+    
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*------------------------------------------ICONS*/
+
+.linkIcon {
+    background-color: rgb(79, 63, 168);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: 0 10rem;
+    min-width: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkIcon:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(11, 18, 75, 0.5);
+    transform: translateY(0.2rem);
+    transition: transform 200ms;
+}
+
+i {
+    width: 10rem;
+    height: 10rem;
+    color: #fff;
+    z-index: 1;
+}
