@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     color: #fff;
+    
 }
 
 /*------------------------------------------TEXT*/
@@ -18,14 +19,16 @@ h2{
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 h2 {
     font-size: 4rem;
+    margin-bottom: 5rem;
 }
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+    margin-bottom: 5rem;
 }
 
 li {
@@ -55,6 +58,15 @@ li {
     
 }
 
+.textContainer {
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.leftAlign {
+    text-align: left;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -66,6 +78,11 @@ li {
 }
 
 /*------------------------------------------ICONS*/
+
+div:target {
+    animation: highlight 1s ease;  
+    transform: translateX(20px);     
+  }
 
 .linkIcon {
     background-color: rgb(79, 63, 168);
