@@ -1,6 +1,6 @@
 :root {
     font-size: 62.5%;
-    background-color: #333;
+    background-color: rgb(26, 25, 25);
 }
 
 * {
@@ -76,18 +76,17 @@ li {
     min-width: 20rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .linkIcon:hover{
     cursor: pointer;
-    box-shadow: 0 0.5rem 1rem 0.5rem rgba(11, 18, 75, 0.5);
-    transform: translateY(0.2rem);
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(48, 38, 102, 0.5);
+    transform: translateY(-0.2rem);
     transition: transform 200ms;
 }
 
-i {
-    width: 10rem;
-    height: 10rem;
-    color: #fff;
-    z-index: 1;
+.linkIcon i {
+    font-size: 10rem;
+    margin-top: 5rem;
 }
