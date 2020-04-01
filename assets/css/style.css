@@ -13,10 +13,23 @@
 /*------------------------------------------TEXT*/
 
 h1,
-h2,
-h3{
+h2{
     font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
 }
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
