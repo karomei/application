@@ -12,9 +12,13 @@
 </head>
 <body>
     <div class="header">
-        <h1>Good health & well-being</h1>
+        <h1 class="lax" data-lax-translate-y="0 0, 400 -400">Good health & well-being</h1>
     </div>
-    <div class="landingPage container">
+    <div class="landingImg">
+        <img src="./assets/images/sasha-freemind-nXo2ZsKHTHg-unsplash.jpg" alt="Girl" class="girl">
+    </div>
+    <div class="landingPage container lax" data-lax-translate-y="0 0, 400 -400">
+        
         <div class="icons flex-row flex-center">
             <a href="#issue">
                 <div class="linkIcon">
@@ -38,7 +42,7 @@
             </a>
         </div>
     </div>
-    <div class="textContainer leftAlign">
+    <div class="textContainer leftAlign lax" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <span class="anchor" id="issue"></span>
         <h2>The Issue</h2>
         <p>The UN has created 17 Sustainable Development Goals which are supposed to be achieved by 2030. The goal I’ve chosen is Good Health & Well-being.
@@ -53,7 +57,7 @@
             has changed both my well-being and others around me.
             </p>
     </div>
-    <div class="textContainer">
+    <div class="textContainer lax" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <span class="anchor" id="history"></span>
         <h2>My history</h2>
         <p>September of 2018 changed my life. After one week of fainting and feeling as anything of annoyance would be the straw that broke the camel's back, 
@@ -63,7 +67,7 @@
             <b>Stress is one of the main triggers for the illness</b> and if not living correctly, POTS can show its true colours through extreme fatigue, heart palpitations, fainting and depression.<br><br> 
             Therefore, a complete change of lifestyle was needed and a method was applied. </p>
     </div>
-    <div class="textContainer">
+    <div class="textContainer lax" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <span class="anchor" id="method"></span>
         <h2>Method: Stress Management</h2>
         <p>It all comes down to one thing - habits. It is very simple in theory, but one needs to start out small. Think of yourself as a pot of soil and the 
@@ -73,7 +77,7 @@
             
             </p>
     </div>
-    <div class="textContainer" id="physical">
+    <div class="textContainer lax" id="physical" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <h2>Physical changes</h2>
         <p>It's the easiest to start here, by doing things which are easy to visibly notice.</p>
         <ul>
@@ -85,7 +89,7 @@
         <p>In conclusion, drink water, eat, sleep and move around.</p>
 
     </div>
-    <div class="textContainer" id="psychological">
+    <div class="textContainer lax" id="psychological" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <h2>Psychological changes</h2>
         <p>The psychological changes and effects took place about 1 month after beginning with the physical aspects in life.
             As stress comes from how our consciousness and unconsciousness handles life situations, it was very important to start acknowledging things.<br><br> 
@@ -105,7 +109,7 @@
             the stress levels a lot. It wasn’t the only outcome, as friends and family noticed it as well and welcomed the change.
         </p>
     </div>
-    <div class="textContainer">
+    <div class="textContainer lax" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <span class="anchor" id="result"></span>
         <h2>Results</h2>
         <p>As a result, after one month of following the method I was able to cut 2/3 of the medication and 8 months in, no medication was needed at all. 
@@ -116,7 +120,7 @@
             I began the journey thinking I would only change myself, however others tended to change around me along the way. 
             In summary, that’s how I’ve had an impact on the Good Health & Well-Being Sustainable Development Goal.</p>
     </div>
-    <div class="textContainer referenceIcons">
+    <div class="textContainer referenceIcons lax" data-lax-translate-y="0 0, 400 -600" data-lax-opacity="0 0, 350 1">
         <h2>References</h2>
         <div class="icons flex-row flex-center">
             <a href="https://www.forbes.com/sites/duncanmadden/2019/03/28/ranked-the-10-happiest-countries-in-the-world-in-2019/#1cea97be48a5
@@ -138,5 +142,18 @@
         </div>    
     </div>
     <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+    <script>
+        window.onload = function() {
+        lax.setup() // init
+
+        const updateLax = () => {
+            lax.update(window.scrollY)
+            window.requestAnimationFrame(updateLax)
+        }
+
+        window.requestAnimationFrame(updateLax)
+        }
+    </script>
 </body>
 </html>

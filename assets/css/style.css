@@ -33,11 +33,14 @@ p {
 }
 
 /*------------------------------------------UTILITIES*/
+.landingPage {
+    top: 0;
+}
 .header {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 40rem;
 }
 .container {
     width: 100vw;
@@ -47,7 +50,7 @@ p {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
-    margin-top: -10rem;
+    margin-top: -20rem;
 }
 .container > * {
     width: 100%;
@@ -76,7 +79,7 @@ p {
 /*------------------------------------------ICONS*/
 
 .linkIcon {
-    background-color: rgb(79, 63, 168);
+    background-color: rgb(84, 56, 241);
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
@@ -129,11 +132,27 @@ a h2 {
     transform: translateY(-0.2rem);
     transition: transform 200ms;
 }
-  /*------------------------------------------LISTS*/
 
-  li {
+/*------------------------------------------LISTS*/
+
+li {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     list-style-type: circle;
     margin-bottom: 2rem;
 }
+
+/*------------------------------------------IMAGES*/
+
+.landingImg {
+    width: 100vw;
+    
+}
+.girl {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
