@@ -16,6 +16,7 @@
 h1,
 h2{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -55,11 +56,11 @@ li {
 }
 .container > * {
     width: 100%;
-    
 }
 
 .textContainer {
     width: 100vw;
+    height: 100vh;
     max-width: 80rem;
     margin: 0 auto;
 }
@@ -106,4 +107,23 @@ div:target {
 .linkIcon i {
     font-size: 10rem;
     margin-top: 5rem;
+}
+
+.referenceIcons .icons a {
+    background-color: rgb(168, 63, 168);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0 5rem;
+    min-width: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+a h2 {
+    margin-top: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
 }
