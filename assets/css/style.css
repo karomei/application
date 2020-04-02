@@ -32,11 +32,6 @@ p {
     margin-bottom: 5rem;
 }
 
-li {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-}
-
 /*------------------------------------------UTILITIES*/
 .header {
     display: flex;
@@ -131,4 +126,13 @@ a h2 {
 .anchor {
     position: absolute;
     transform: translateY(-25vh);
-  }
+}
+
+  /*------------------------------------------LISTS*/
+
+  li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    list-style-type: circle;
+    margin-bottom: 2rem;
+}
