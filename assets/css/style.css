@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     color: #fff;
-    
+    line-height: 3.5rem;
 }
 
 /*------------------------------------------TEXT*/
@@ -156,4 +156,5 @@ li {
     height: auto;
     top: 0;
     left: 0;
+    opacity: 0.4;
 }
