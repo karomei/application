@@ -33,6 +33,7 @@ p {
 }
 
 /*------------------------------------------UTILITIES*/
+
 .landingPage {
     top: 0;
 }
@@ -123,7 +124,7 @@ a h2 {
 
 .anchor {
     position: absolute;
-    transform: translateY(-100vh);
+    transform: translateY(-25vh);
 }
 
 .referenceIcons .icons a:hover{
