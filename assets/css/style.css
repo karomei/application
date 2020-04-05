@@ -59,7 +59,7 @@ p {
 
 .textContainer {
     width: 100vw;
-    height: 100vh;
+    padding: 10rem 5rem;
     max-width: 80rem;
     margin: 0 auto;
 }
